@@ -1,0 +1,12 @@
+2026-02-25 20:07:32.078606-06:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "[*]USUARIOS"; se esperaba "UPDATE"
+Syntax error in SQL statement "[*]USUARIOS"; expected "UPDATE"; SQL statement:
+USUARIOS [42001-240]
+2026-02-25 20:07:58.902791-06:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "SELECT * [*]USUARIOS"
+Syntax error in SQL statement "SELECT * [*]USUARIOS"; SQL statement:
+SELECT * USUARIOS [42000-240]
+2026-03-03 22:03:08.166387-06:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "SELECT * FROM USUARIOS [*]:"
+Syntax error in SQL statement "SELECT * FROM USUARIOS [*]:"; SQL statement:
+SELECT * FROM USUARIOS : [42000-240]
